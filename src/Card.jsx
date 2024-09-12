@@ -17,10 +17,10 @@ function Card({ data, isMonthlySelected }) {
       </p>
 
       <div
-        className={`w-full border-t border-opacity-25 ${data.name === "Professional" ? "border-white" : "border-grayish-blue"} mb-8 flex flex-col items-center gap-3 py-3 text-[15px] font-bold leading-7`}
+        className={`w-full border-t border-opacity-25 ${data.name === "Professional" ? "border-white" : "border-grayish-blue"} mb-8 flex flex-col items-center gap-3 text-[15px] font-bold leading-7`}
       >
         <p
-          className={`w-full border-b border-opacity-25 pb-3 text-center ${data.name === "Professional" ? "border-white" : "border-grayish-blue"}`}
+          className={`w-full border-b border-opacity-25 pb-3 pt-3 text-center ${data.name === "Professional" ? "border-white" : "border-grayish-blue"}`}
         >
           {data.storage} Storage
         </p>
